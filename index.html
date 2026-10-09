@@ -8,23 +8,22 @@
     <link rel="stylesheet" href="./style.css">
     <title>Oluwatomisin jare-ajadi</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,
-wght@0,17..18,400..700;1,17..18,400..700&family=Poppins:ital,wght@0,100;0,200;0,
-300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,
-800;1,900&display=swap" rel="stylesheet">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Noto+Sans+Nag+Mundari:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <nav class="nav-container">
-        <img class="" src="./images/logo 2.png" alt="" width="55">
+        <img class="nav-logo" src="./images/logo 2.png" alt="" width="55">
+        <button class="nav-toggle" aria-label="Menu" aria-expanded="false"><i class="fa-solid fa-bars"></i></button>
+        <!-- <p>Tomisin jare-ajadi</p> -->
         <ul class="nav-list">
             <li><a href="">Works</a></li>
             <li><a href="">Process</a></li>
             <li><a href="">About</a></li>
             <li><a href="">Contact</a></li>
         </ul>
-        <button class="nav-button">Let's Talk</button>
+        <button class="nav-button">Book me</button>
     </nav>
     <!--HERO SECTION-->
     <div class="hero-sect">
@@ -43,7 +42,7 @@ wght@0,17..18,400..700;1,17..18,400..700&family=Poppins:ital,wght@0,100;0,200;0,
                  </div>
            </div>
       </div>
-        <img src="./images/hero img.png" alt="" width="350">
+        <img class="hero-img" src="./images/hero img.png" alt="" width="350">
     </div>
 
     <!--Core Offering-->
@@ -78,7 +77,7 @@ wght@0,17..18,400..700;1,17..18,400..700&family=Poppins:ital,wght@0,100;0,200;0,
              <span>Design Strategy</span><span>•</span>
          </div>
       </div>
- </section>
+   </section>
 
  
 
@@ -96,47 +95,48 @@ wght@0,17..18,400..700;1,17..18,400..700&family=Poppins:ital,wght@0,100;0,200;0,
     <div class="body-line"></div>
 
     <section class="selected-projects">
-        <div class="project-card">
-         <img src="./images/hero section pdc.png" alt="Pioneer Design Co.">
-         <h2>Pioneer Design Co.</h2>
-         <p>Designed the digital experience for Pioneer Design Co., focusing on a clean, modern interface that communicates the agency’s creative identity and services.</p>
-          <div class="tags">
-             <button>Product Design</button>
-             <button>UIUX</button>
-           </div>
-        </div>
 
-        <div class="project-card">
-          <img src="./images/Auruma(1).png" alt="Auruma Sinkcare">
-            <h2>Auruma Sinkcare</h2>
+        <a href="" class="project-card">
+          <img src="./images/hero section pdc.png" alt="Pioneer Design Co.">
+          <h2>Pioneer Design Co.</h2>
+          <p>Designed the digital experience for Pioneer Design Co., focusing on a clean, modern interface that communicates the agency’s creative identity and services.</p>
+          <div class="tags">
+            <span>Product Design</span>
+            <span>UIUX</span>
+          </div>
+       </a>
+
+        <a href="" class="project-card">
+            <img src="./images/Auruma(1).png" alt="Auruma Sinkcare">
+            <h2>Auruma Skincare</h2>
             <p>Developed a refined visual identity and graphic direction for Auruma Skincare, creating a cohesive brand system that reflects its beauty and skincare positioning.</p>
               <div class="tags">
-                  <button>Branding</button>
-                  <button>Product Design</button>
+                  <span>Branding</span>
+                  <span>Product Design</span>
                </div>
-       </div>
-  </section>
+        </a>
+    </section>
 
     <section class="selected-projects">
-        <div class="project-card">
+        <a href="" class="project-card">
          <img src="./images/webdev img.png" alt="Web Dev">
          <h2>Web Dev</h2>
          <p>Designed and built a responsive landing page from the ground up, translating the visual direction into a functional webpage using HTML and CSS.</p>
            <div class="tags">
-             <button>HTML</button>
-             <button>CSS</button>
+             <span>HTML</span>
+             <span>CSS</span>
            </div>
-       </div>
+       </a>
 
-        <div class="project-card">
+        <a href="" class="project-card">
           <img src="./images/vela pack.png" alt="Vela pack" width="400">
           <h2>Vela Ecommerce Management platform</h2>
            <p>Designed an ecommerce management platform focused on helping businesses manage their products, operations, and digital storefront through a clear and intuitive experience.</p>
             <div class="tags">
-              <button>Product Design</button>
-              <button>UIUX</button>
+              <span>Product Design</span>
+              <span>UIUX</span>
             </div>
-        </div>
+       </a>
  </section>
 
   <!--Body section-->
@@ -191,7 +191,7 @@ wght@0,17..18,400..700;1,17..18,400..700&family=Poppins:ital,wght@0,100;0,200;0,
        <!-- Closing call to action -->
          <div class="cta">
            <h2>Have a project in mind? Let's build it together.</h2>
-           <a class="button" href="mailto:jjareajadi@gmail,com">Start a project</a>
+           <a class="button" href="mailto:jjareajadi@gmail.com">Start a project</a>
          </div>
        <!-- Link columns -->
           <div class="columns">
@@ -230,8 +230,8 @@ wght@0,17..18,400..700;1,17..18,400..700&family=Poppins:ital,wght@0,100;0,200;0,
       <div>
         <h4>Contact</h4>
         <ul>
-          <li><a href="mailto:hello@example.com">hello@example.com</a></li>
-          <li>Lagos, Nigeria</li>
+          <li><a href="mailto:hello@example.com">jjareajadi@gmail.com</a></li>
+          <li>Ibadan, Nigeria</li>
           <li><a href="#">Book a call</a></li>
         </ul>
       </div>
@@ -251,6 +251,7 @@ wght@0,17..18,400..700;1,17..18,400..700&family=Poppins:ital,wght@0,100;0,200;0,
   </div>
  
 </footer>
+<script src="./script.js"></script>
 </body>
 
 </html>
